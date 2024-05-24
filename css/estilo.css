@@ -1,0 +1,301 @@
+/* CORPO COMPLETO DA PÁGINA */
+body {
+    background-color: #363636;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF0000;
+}
+
+.logo {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    font-family: Curely, sans-serif;
+    font-size: 30px;
+}
+
+.menu a {
+    margin-top: 17px;
+    border-radius: 20px;
+    padding: 10px 15px 15px 15px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #ffffff;
+    color: #FF0000;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    margin-top: 2%;
+    margin-right: 4%;
+    width: 50px;
+    height: 50px;
+}
+
+.fb:hover {
+    opacity: 0.7;
+}
+
+.ins:hover {
+    opacity: 0.7;
+}
+
+/* Lema */
+
+.lema {
+    font-family: Curely;
+    font-size: 40px;
+    color: #FF0000;
+    text-align: center;
+}
+
+/* Texto H1 */
+
+.a99 {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #FF0000;
+}
+
+/* Tratamento do slideshow */
+
+.mySlides {
+    display: none;
+}
+
+.slideshow-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: auto;
+}
+
+.slideimg {
+    border-radius: 15px;
+    border: 2px whitesmoke solid;
+}
+
+.numbertext {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.788);
+    color: #FF0000;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-top: 4px;
+    padding: 6px;
+    position: absolute;
+    top: 0;
+}
+
+.text {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.788);
+    color: #FF0000;
+    font-size: 20px;
+    margin-left: 8px;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 8px;
+    width: auto;
+    text-align: center;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #FF0000;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6 ease;
+}
+
+.active {
+    background-color: rgb(255, 255, 255);
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+/* Sugestões
+
+.sugestões{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.churrasco img{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+} */
+
+/* Tratamento h2 */
+
+h2 {
+    color: #FF0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Curely, sans-serif;
+    font-size: 36px;
+}
+
+/* Box das receitas */
+
+.texto-receitas {
+    font-family: Curely;
+    font-size: 40px;
+    color: #FF0000;
+    text-align: center;
+}
+
+.container-receitas {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color: #FF0000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* alinhamento do texto */
+    font-style: italic;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.container-receitas a:visited {
+    color: #FF0000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.receita-imagem {
+    border-radius: 30px;
+}
+
+/* Rodapé página */
+
+.rodape {
+    height: 300px;
+    width: auto;
+    background-color: #FF0000;
+}
+
+.rodape text {
+    margin-top: 250px;
+}
+
+.rodape-container {
+    display: flex;
+    align-items: center;
+    float: left;
+    font-size: medium;
+    margin-left: 8%;
+}
+
+.rodape a {
+    align-items: center;
+    font-size: 22px;
+}
+
+.map h1,
+p,
+a {
+    color: whitesmoke;
+    display: flex;
+    align-content: center;
+}
+
+.map a:visited {
+    color: whitesmoke;
+}
+
+/* Sobre nós pagina */
+
+.sobrenoislema {
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+    border: 2px black solid;
+    border-radius: 50px;
+    background-color: #FF0000;
+}
+
+.sobrenoislema h1 {
+    color: whitesmoke;
+}
+
+.sobrenoisconteudo {
+    border: 1px black solid;
+    background-color: rgba(255, 255, 255, 0.952);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.sobrenoistxt {
+    margin: 30px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.bonapetiti {
+    margin: 30px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Easter-egg cozinheiro */
+
+.cozinheiro-secreto {
+    display: inline;
+}
+
+/* Animação fade dos slides */
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Importação da fonte */
+
+@import url('https://fonts.cdnfonts.com/css/curely');
