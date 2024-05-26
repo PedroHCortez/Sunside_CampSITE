@@ -1,4 +1,4 @@
-.listareceitas{
+.listacategoria{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -8,7 +8,7 @@
 }
 
 .funcionariobox{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Zombie;
     color: #000000;
     font-size: 18px;
     width: 310px;
@@ -20,26 +20,41 @@
 }
 
 h3, h4{
-    color: #030303;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Zombie;
+    color: #222222;
+}
+
+.mapadiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapacamp {
+    justify-content: center;
+    align-items: center;
+}
+
+.imgmapa {
+    border: 5px whitesmoke solid;
+}
+
+.vistamapatxt {
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .overlay{
-    border: 2px #f5f5f5;
+    margin-top: 5px;
+    font-family: Zombie;
+    border: 2px #161616 solid;
     border-radius: 20px;
     background-color: #f5f5f5;
-}
-
-.receitabox a:hover{
-    opacity: 0.7;
-}
-
-.receitabox a:visited{
-    color: #1e7387;
-}
-
-a{
-    text-decoration: none;
 }
 
 .lista-imagem{

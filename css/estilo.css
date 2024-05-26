@@ -75,6 +75,13 @@ body {
     text-align: center;
 }
 
+.reinauguração {
+    font-family: Riverside;
+    font-size: 60px;
+    color: rgb(249, 27, 27);
+    text-align: center;
+}
+
 /* Texto H1 */
 
 .WelcomeSunside {
@@ -102,9 +109,9 @@ h1 {
 }
 
 #venhaconhecertxt {
-    margin-left: 50px;
-    color: #110f0f;
-    font-size: 30px;
+    margin-left: 344px;
+    color: #d6d6d6;
+    font-size: 36px;
 }
 
 .venhaconhecer {
@@ -128,35 +135,29 @@ h2 {
 
 /* Box das receitas */
 
-.texto-receitas {
-    font-family: Curely;
+.texto-categorias {
+    font-family: Riverside;
     font-size: 40px;
-    color: #FF0000;
+    color: whitesmoke;  
     text-align: center;
 }
 
 .container-funcionários {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 25px;
-    color: #FF0000;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Zombie;
     text-align: center;
     /* alinhamento do texto */
-    font-style: italic;
     margin-top: 40px;
     margin-bottom: 80px;
-}
-
-.container-receitas a:visited {
-    color: #FF0000;
 }
 
 a {
     text-decoration: none;
 }
 
-.receita-imagem {
+.quadro-imagem {
     border-radius: 30px;
 }
 
