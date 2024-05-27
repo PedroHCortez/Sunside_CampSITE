@@ -54,13 +54,12 @@ body {
 .baixeagora {
     display: flex;
     float: right;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-right: 5%;
 
 }
 
 .baixeagorabotão {
-    margin-top: 5px;
     background-color: rgb(217, 217, 217);
     width: 130px;
     height: 50px;
@@ -96,7 +95,7 @@ h1 {
 /* Venha conhecer texto */
 
 .venhaconhecerimg {
-    margin-left: 340px;
+    margin-left: 30%;
     display: flex;
     justify-content: center, space-between;
 }
@@ -109,7 +108,7 @@ h1 {
 }
 
 #venhaconhecertxt {
-    margin-left: 344px;
+    margin-left: 30.3%;
     color: #d6d6d6;
     font-size: 36px;
 }
@@ -227,6 +226,11 @@ a {
 }
 
 .sobrenoistxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: row wrap;
     color: rgb(27, 27, 27);
     font-size: 28px;
 }
