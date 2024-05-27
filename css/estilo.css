@@ -211,27 +211,24 @@ a {
     margin-bottom: 20px;
     border: 2px black solid;
     border-radius: 50px;
-    background-color: #FF0000;
+    background-color: #e0e0e0;
 }
 
 .sobrenoislema h1 {
-    color: whitesmoke;
+    color: rgb(27, 27, 27);
 }
 
 .sobrenoisconteudo {
     border: 1px black solid;
-    background-color: rgba(255, 255, 255, 0.952);
+    background-color: rgba(255, 255, 255, 0.787);
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
 
 .sobrenoistxt {
-    margin: 30px;
+    color: rgb(27, 27, 27);
     font-size: 28px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 .bonapetiti {
