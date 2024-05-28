@@ -64,6 +64,7 @@ body {
     border: 2px whitesmoke solid;
     background-color: rgb(20, 20, 20);
     color: whitesmoke;
+    font-size: 15px;
     width: 130px;
     height: 50px;
 }
@@ -242,7 +243,7 @@ a {
     text-align: center;
     flex-flow: row wrap;
     color: rgb(213, 213, 213);
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .slogan {
@@ -275,11 +276,19 @@ a {
     display: flex;
     justify-content: space-around;
     align-content: center;
-    flex-flow: row wrap;
+    flex-flow: row;
     margin: 15px;
     border: 2px rgb(151, 5, 5) solid;
 }
 
+.bullfaceimgs1 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row;
+    margin: 15px;
+    border: 2px rgb(151, 5, 5) solid;
+}
 /* Easter-egg brasão do acampamento */
 
 .logo-secreto {
@@ -288,9 +297,25 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-flow: row wrap;
+    flex-flow: wrap;
 }
 
+.logo-secreto1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: wrap;
+}
+
+.logo-secreto2 {
+    border: 2px rgb(151, 5, 5) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: wrap;
+}
 
 /* Importação da fonte */
 @font-face {
