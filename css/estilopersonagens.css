@@ -16,6 +16,7 @@
 }
 
 h1{
+    font-family: Riverside;
     display: flex;
     justify-content: center;
 }
@@ -42,28 +43,11 @@ text{
     padding: 5px;
 }
 
-input[type="checkbox"]{
-    width: 20px;
-    height: 20px;
-    background-color: whitesmoke;
-    border: solid 2px #ff0000;
-}
-
-.ingredientes{
-    overflow: hidden;
-    border: 1px black solid;
-    background-color: #3b3b3b;
-}
-
-.imagem-receita{
+.imagem-personagem{
+    text-align: center;
     align-content: center;
     display: flex;
-    justify-content: center;
     border: 2px black solid;
-    border-radius: 30px;
+    justify-content: center;
     margin: 25px;
-}
-
-.imagem-receita img{
-    border-radius: 30px;
 }
