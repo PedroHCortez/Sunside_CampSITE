@@ -6,210 +6,90 @@
     <!-- Link do css -->
     <link rel="stylesheet" href="../../css/estilo.css">
     <link rel="stylesheet" href="../../css/estilocategorias.css">
-    <link rel="stylesheet" href="../../css/estiloreceitas.css">
-    <!-- Importando a fonte -->
-    <link href="https://fonts.cdnfonts.com/css/curely" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/estilopersonagens.css">
     <!-- Titulo da web -->
-    <title>Receita de Sushi</title>
+    <title>Agatha</title>
 </head>
 <body>
     <!-- Inicio do menu -->
     <div class="container">
 
-        <div class="logo"><a href="../../index.html"><img src="../../img/28foodlogomarca.svg" width="100px" height="100px"></div></a>
+        <div class="logo"><a href="../../index.html"><img src="../../img/LOGO.png" width="200px" height="200px"></div></a>
 
         <div class="menu">
-            <a href="../../doces.html">Doces</a>
-            <a href="../../salgados.html">Salgados</a>
-            <a href="../../saladas.html">Saladas</a>
+            <a href="../../funcionários.html">FUNCIONARIOS</a>
+            <a href="../../personagens.html">PERSONAGENS</a>
+            <a href="../../acampamento.html">ACAMPAMENTO</a>
+            <a href="../../about.html">SOBRE</a>
         </div>
 
-        <div class="social">
-            <a href="https://facebook.com" class="fb"><img src="../../icons/icons8-facebook-24.png" width="34px" height="34px"></a>
-            <a href="https://instagram.com" class="ins"><img src="../../icons/icons8-instagram-24.png" width="34px" height="34px"></a>
+        <div class="baixeagora">
+            <button class="baixeagorabotão">BAIXE AGORA</button>
         </div>
     </div>
-    <!-- Barra de pesquisa -->
-    <div class="pesquisa">
-          <input type="text" placeholder="Pesquisar. . .">  
-          <input type="submit" value="">
-    </div>
-    <!-- Fim da barra de pesquisa -->
     <!-- Fim do menu -->
 
-    <!-- Conteúdo da receita -->
-    <div class="container_receitas">
+    <!-- Conteúdo da página -->
+    <div class="container_personagens">
 
-        <div class="receita">
-            <!-- Nome da receita -->
-            <div class="ingredientes">
-                <!-- Imagem da receita -->
-                <div class="imagem-receita">
-                    <img src="../../img/sushi2.webp" width="600px" height="400px">
-                </div>
-                <!-- Fim da imagem da receita -->
-                <h1>Sushi</h1>
+        <div class="personagem">
+            <!-- Imagem -->
+            <div class="imagem-personagem">
+                <img class="imagempersonagem" src="../../img/agatha.png" width="600px" height="450px">
+            </div>
+            <!-- Fim da imagem -->
 
-                <!-- Ingredientes -->
-                <h3>Ingredientes</h3>
-                <!-- Itens da receita -->
-                    <h4>Arroz</h4>
-                    <input type="checkbox" id="checkbox"><text>2 xícaras (chá) de arroz japonês</text>
-                    <br>
-                    <input type="checkbox" id="checkbox"><text>2 xícaras (chá) de água</text>
-                    <br>
-                    <h4>Tempero para o arroz</h4>
-                    <input type="checkbox" id="checkbox"><text>1/2 xícara (chá) de vinagre japonês para sushi (tozan)</text>
-                    <br>
-                    <input type="checkbox" id="checkbox"><text>1/2 colher (café) de sal</text>
-                    <br>
-                    <input type="checkbox" id="checkbox"><text>1 e 1/2 xícaras (chá) de açúcar</text>
-                    <br>
-                    <input type="checkbox" id="checkbox"><text>1 colher (café) de realçador de sabor</text>
-                    <br>
-                    <h4>Sushi de verduras</h4>
-                    <input type="checkbox" id="checkbox"><text>1 xícara de água</text>
-                    <br>
-                    <input type="checkbox" id="checkbox"><text>1/4 xícara de shoyu</text>
-                    <br>
-                    <input type="checkbox" id="checkbox"><text>1 cenoura cortada em tiras no sentido do comprimento</text>
-                    <br>
-                    <input type="checkbox" id="checkbox"><text>Gengibre em conserva, cortado em tiras</text>
-                    <br>
-                    <input type="checkbox" id="checkbox"><text>3/4 xícara de açúcar</text>
-                    <br>
-                    <input type="checkbox" id="checkbox"><text>1 saquinho de tempero à base de peixe bonito</text>
-                    <br>
-                    <input type="checkbox" id="checkbox"><text>15 vagem</text>
-                    <br>
-                    <h4>Montagem</h4>
-                    <input type="checkbox" id="checkbox"><text>1 pacote de nori (algas)</text>
-                    <br>
-                <!-- Fim dos itens da receita -->
-            </div>
-            <!-- Modo de preparo -->
-            <h3>Modo de Preparo</h3>
-            
-            <h4>Arroz</h4>
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <input type="checkbox" id="checkbox">
-                <text>Em uma panela colocar o arroz e a água e levar ao fogo para cozinhar.</text>
-            </div>
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <input type="checkbox" id="checkbox">
-                <text>Quando levantar fervura, mexer e deixar cozinhar em fogo brando.</text>
-            </div>
-
-            <h4>Tempero</h4>
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <input type="checkbox" id="checkbox">
-                <text>Misturar todos os ingredientes em uma tigela, misturando aos poucos, ao arroz cozido.</text>
-            </div>
-
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <input type="checkbox" id="checkbox">
-                <text>Ir experimentando para ver o tempero.</text>
-            </div>
-
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <input type="checkbox" id="checkbox">
-                <text>Reservar cerca de 1 colher (sopa) do tempero para fechar os sushis.</text>
-            </div>
-
-            <h4>Verduras</h4>
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <input type="checkbox" id="checkbox">
-                <text>Colocar todos os ingredientes do sushi de verduras em uma panela, exceto o gengibre e deixar cozinhar até ficarem macios.</text>
-            </div>
-
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <input type="checkbox" id="checkbox">
-                <text>Desligue o fogo e escorra - os.</text>
-            </div>
-
-            <h4>Montagem</h4>
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <input type="checkbox" id="checkbox">
-                <text>Com a ajuda de uma esteira própria para enrolar sushi, coloque o nori, com o lado que brilha voltado para dentro (onde se colocará o arroz).</text>
-            </div>
-
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <input type="checkbox" id="checkbox">
-                <text>Preencher o nori com o arroz, que deverá estar frio.</text>
-            </div>
-
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <input type="checkbox" id="checkbox">
-                <text>Deixar dois dedos do nori sem preencher com o arroz.</text>
-            </div>
-
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <input type="checkbox" id="checkbox">
-                <text>Bem no centro colocar 2 tiras de cenoura, 2 tiras de vagem e tirinhas de gengibre (1 fileira).</text>
-            </div>
-
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <input type="checkbox" id="checkbox">
-                <text>Passar um pouquinho do tempero que usou para o arroz no local do nori onde não foi preenchido com o arroz.</text>
-            </div>
-
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <input type="checkbox" id="checkbox">
-                <text>Enrolar do sentido de onde está o arroz para o sentido da onde não foi colocado o arroz, para que grude.</text>
-            </div>
-
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <input type="checkbox" id="checkbox">
-                <text>Tire a esteirinha e corte os sushis, com espessura de cerca de 2 dedos cada um.</text>
-            </div>
-
-            <h4>Outras opções de recheios:</h4>
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <text>Atum - alface - maionese.</text>
-            </div>
-
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <text>Salmão cru - wasabi (condimento japonês).</text>
-            </div>
-
-            <div class="preparo">
-                <img src="../../icons/fork9.png" width="20px" height="20px">
-                <text>Salmão - manga - pepino.</text>
-            </div>
+            <!-- Titulo -->
+            <h1>Agatha</h1>
+            <!-- Conteudo -->
+            <text>
+                Agatha é uma sobrevivente que irradia um ar de mistério e intensidade.
+                <br>
+                Com sua pele pálida contrastando com o cabelo negro e olhos marcados por uma maquiagem escura,
+                ela exala uma aura gótica que a distingue imediatamente.
+                <br>
+                Seus trajes consistem em roupas de tons escuros, adornadas com acessórios prateados e detalhes de renda,
+                refletindo sua profunda paixão pela estética sombria.
+                <br>
+                Agatha carrega consigo um amuleto antigo, que ela acredita protegê-la contra forças malignas,
+                um legado passado por gerações em sua família.
+                <br>
+                <br>
+                Desde a infância, Agatha encontrou conforto nos filmes de terror, fascínio que a acompanhou até a
+                vida adulta.
+                <br>
+                As narrativas macabras e os cenários assombrosos dos filmes a prepararam mentalmente para enfrentar
+                horrores reais.
+                <br>
+                Esse amor pelos filmes de terror a tornou uma observadora meticulosa, capaz de notar detalhes que escapam
+                aos outros.
+                <br>
+                Sua mente afiada e seu conhecimento sobre o sobrenatural são recursos valiosos na luta pela sobrevivência,
+                permitindo-lhe antecipar perigos e bolar estratégias para escapar das ameaças que a cercam.
+            </text>
+            <!-- Fim do conteudo -->
         </div>
     </div>
+    <!-- Fim do conteúdo da página -->
     
 </body>
+
+<!-- rodapé -->
 
 <footer class="rodape">
     <div class="rodape-container">
         <main class="map">
             <h1>Mapa do Site</h1>
             <ul>
-                <li><a href="../../index.html">INÍCIO</a></li>
-                <li><a href="../../doces.html">DOCES</a></li>
-                <li><a href="../../salgados.html">SALGADOS</a></li>
-                <li><a href="../../saladas.html">SALADAS</a></li>
+                <li><a href="../../index.html">PÁGINA INÍCIAL</a></li>
+                <li><a href="../../funcionários.html">NOSSOS FUNCIONÁRIOS</a></li>
+                <li><a href="../../personagens.html">PERSONAGENS JOGÁVEIS</a></li>
+                <li><a href="../../acampamento.html">ÁREAS DO ACAMPAMENTO</a></li>
                 <li><a href="../../about.html">SOBRE NÓS</a></li>
-            </ul>    
-            <p>&copy; Todos direitos reservados</p>    
+            </ul>
+            <p>&copy; Todos os direitos reservados</p>
         </main>
     </div>
 </footer>
+
 </html>
